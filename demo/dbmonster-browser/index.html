@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+<head>
+  <title>dbmon</title>
+  <meta charset="utf-8">
+
+  <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <link href="styles.css" rel="stylesheet">
+
+  <script type="text/javascript">
+    // DON'T DO THIS AT HOME (IncrementalDOM2string is not intended for browser use, at all).
+    var module = {}
+  </script>
+  <script src="/index.js"></script>
+  <script type="text/javascript">
+    // without any setOutput it will use the buffer and then set innerHTML of patch node
+    var IncrementalDOM = module.exports
+    // document can be used as stream (the following line is a bit extreme)
+    //IncrementalDOM.setOutput(false, document, null, true)
+  </script>
+</head>
+<body>
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

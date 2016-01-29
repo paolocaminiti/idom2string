@@ -1,0 +1,26 @@
+{
+  "name": "idom2string",
+  "version": "0.3.0",
+  "description": "Drop-in IncremtalDOM to string interpreter",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paolocaminiti/incremental-dom-to-string.git"
+  },
+  "keywords": [
+    "incremental-dom",
+    "string",
+    "serve-side-rendering",
+    "universal",
+    "isomorphic"
+  ],
+  "author": "Paolo Caminiti <paolo.caminiti@gmail.com> (https://github.com/paolocaminiti)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/paolocaminiti/incremental-dom-to-string/issues"
+  },
+  "homepage": "https://github.com/paolocaminiti/incremental-dom-to-string#readme"
+}
